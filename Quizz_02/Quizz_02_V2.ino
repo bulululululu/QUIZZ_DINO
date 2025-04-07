@@ -74,13 +74,6 @@ void loop() {
             delay(attendre);                         // milliseconds 
             Serial.println("faux");
         }
-        delay(attendre);//?
-        for (int i = 0; i < numPixels; i++) {
-        ring.setPixelColor(i, ETEINT); // set pixel i to foreground
-        ring.show();                       // actually display it
-        delay(attendre);                         // milliseconds 
-        Serial.println("eteint");
-        } 
       } 
     } else {
         for (int i = 0; i < numPixels; i++) {
