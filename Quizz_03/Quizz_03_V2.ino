@@ -1,4 +1,5 @@
-//QUIZZ 02 "QUI A FAIT CETTE CROTTE ?"
+//QUIZZ 03 "QUI MANGE QUOI ?"
+
 #include <Adafruit_NeoPixel.h>
 
 const int numPixels = 24;
