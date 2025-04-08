@@ -13,8 +13,9 @@ const int reponses[] = {2, 3, 4, 5, 6, 7}; // Boutons des réponses
 const int  attendre = (5);
 
 const int correspondances[][6] = {
-    {-1, 3, -1, -1, 6, -1}, // Solutions question 1 
-    {2, -1, 4, 5, -1, 7} // Solutions question 2 
+    {2, -1, 4, 5, -1, 7}, // Solutions question 1 
+    {-1, 3, -1, -1, 6, -1} // Solutions question 2 
+
 
  };
 const int nbQuestions = sizeof(questions) / sizeof(questions[0]);
