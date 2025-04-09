@@ -16,8 +16,8 @@ const int  attendre = (5);
 const int correspondances[][6] = {
     {2, -1, 4, 5, -1, 7}, // Solutions question 1 
     {-1, 3, -1, -1, 6, -1} // Solutions question 2 
+    
  };
-
 const int nbQuestions = sizeof(questions) / sizeof(questions[0]);
 const int nbReponses = sizeof(reponses) / sizeof(reponses[0]);
 const int maxReponses = sizeof(correspondances[0]) / sizeof(correspondances[0][0]);
