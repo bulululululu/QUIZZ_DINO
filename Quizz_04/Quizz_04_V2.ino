@@ -8,14 +8,15 @@ uint32_t VERT = ring.Color(0x00, 0xFF, 0x00); // r, g, b - vert
 uint32_t ROUGE = ring.Color(0xFF, 0x00, 0x00); // rouge
 uint32_t ETEINT = ring.Color(0x00, 0x00, 0x00); // eteint
 
-const int questions[] = {A0, A1}; // Boutons des questions
-const int reponses[] = {2, 3, 4, 5, 6, 7}; // Boutons des réponses
+const int questions[] = {A0, A1, A2, A3}; // Boutons des questions
+const int reponses[] = {2, 3, 4, 5}; // Boutons des réponses
 const int  attendre = (5);
 
-const int correspondances[][6] = {
-    {2, -1, 4, 5, -1, 7}, // Solutions question 1 
-    {-1, 3, -1, -1, 6, -1} // Solutions question 2 
-    
+const int correspondances[][4] = {
+    {-1, 3, -1, -1}, // Solutions question 1 
+    {2, -1, -1, -1}, // Solutions question 2 
+    {-1, -1, 4, -1}, // Solutions question 3 
+    {-1, -1, -1, 5} // Solutions question 4 
  };
 const int nbQuestions = sizeof(questions) / sizeof(questions[0]);
 const int nbReponses = sizeof(reponses) / sizeof(reponses[0]);
