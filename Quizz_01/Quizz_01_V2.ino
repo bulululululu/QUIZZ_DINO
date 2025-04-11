@@ -1,4 +1,4 @@
-//QUIZZ 01 "QUI POND QUOI ?"
+//QUIZZ 01 " PETITS, GRANDS, GEANTS"
 #include <Adafruit_NeoPixel.h>
 
 const int numPixels = 24;
