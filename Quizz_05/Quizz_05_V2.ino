@@ -8,7 +8,7 @@ uint32_t VERT = ring.Color(0x00, 0xFF, 0x00); // r, g, b - vert
 uint32_t ROUGE = ring.Color(0xFF, 0x00, 0x00); // rouge
 uint32_t ETEINT = ring.Color(0x00, 0x00, 0x00); // eteint
 
-const int questions[] = {A0, A1, A2, A3, A4, A5}; // Boutons des questions
+const int questions[] = {14, 15, 16, 17, 18, 19}; // Boutons des questions {A0, A1, A2, A3, A4, A5}
 const int reponses[] = {2, 3, 4, 5, 6, 7}; // Boutons des réponses
 const int  attendre = (5);
 
